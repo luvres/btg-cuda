@@ -1,13 +1,12 @@
 ## EWBF's Zcash CUDA miner whit Ubuntu GPU NVIDIA
 -----
 
-#### Run
+### Run
+
+#### Nicehash (cryptonight) - Default
 ```
 nvidia-docker run -ti --rm --name EWBF-Miner izone/ewbf-miner
 ```
-
-#### Run
-
 ```
 nvidia-docker run -ti --rm --name Nicehash \
 -e POOL="equihash.eu.nicehash.com" \
@@ -16,6 +15,7 @@ nvidia-docker run -ti --rm --name Nicehash \
 izone/ewbf-miner
 ```
 
+#### Zcash.flypool
 ```
 nvidia-docker run -ti --rm --name Zcash \
 -e POOL="eu1-zcash.flypool.org" \

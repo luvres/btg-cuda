@@ -6,9 +6,9 @@ MAINTAINER Leonardo Loures <luvres@hotmail.com>
 # https://github.com/poolgold/ewbf-miner-btg-edition/releases
 
 ENV \
-	POOL="eu1-zcash.flypool.org" \
-	PORT="3333" \
-	USER="t1UuXA2PPFHjzJJ4xjrUE4WkzAZp4HyNims.1uvr3z"
+	POOL="equihash.eu.nicehash.com" \
+	PORT="3357" \
+	USER="3PThBqHfb1UVcZaZXtPAY4SC4fZNBNqCs7.1uvr3z"
 
 COPY miner /usr/bin
 
