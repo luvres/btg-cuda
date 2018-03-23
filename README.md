@@ -15,7 +15,7 @@ nvidia-docker run -ti --rm --name Zcash \
 izone/ewbf-miner
 ```
 ```
-nvidia-docker run -ti --rm --name Zcash-miner \
+nvidia-docker run -ti --rm --name Nicehash \
 -e POOL="equihash.eu.nicehash.com" \
 -e PORT=3357 \
 -e USER="3PThBqHfb1UVcZaZXtPAY4SC4fZNBNqCs7.1uvr3z" \
