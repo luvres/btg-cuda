@@ -5,13 +5,11 @@ MAINTAINER Leonardo Loures <luvres@hotmail.com>
 # https://minergate.com/altminers/ewbf-cuda-btg
 # https://github.com/poolgold/ewbf-miner-btg-edition/releases
 
+ENV \
+	POOL="eu1-zcash.flypool.org" \
+	PORT="3333" \
+	USER="t1UuXA2PPFHjzJJ4xjrUE4WkzAZp4HyNims.1uvr3z"
+
 COPY miner /usr/bin
 
-ENV USER="1uvr3z@gmail.com" \
-	POOL="btg.pool.minergate.com" \
-	PORT=3257
-
-CMD miner --server $POOL --user $USER --pass x --port $PORT
-
-
-
+CMD miner --server $POOL --port $PORT --user $USER   --pass x --cuda_devices 0
