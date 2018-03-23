@@ -1,4 +1,4 @@
-## EWBF Miner whit Ubuntu GPU NVIDIA
+## EWBF's Zcash CUDA miner whit Ubuntu GPU NVIDIA
 -----
 
 #### Run
