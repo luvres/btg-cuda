@@ -8,8 +8,10 @@ MAINTAINER Leonardo Loures <luvres@hotmail.com>
 ENV \
 	POOL="equihash.eu.nicehash.com" \
 	PORT="3357" \
-	USER="3PThBqHfb1UVcZaZXtPAY4SC4fZNBNqCs7.1uvr3z"
+	USER="3PThBqHfb1UVcZaZXtPAY4SC4fZNBNqCs7.1uvr3z" \
+	USERPASS="x" \
+	CUDADEVICES="0"
 
 COPY miner /usr/bin
 
-CMD miner --server $POOL --port $PORT --user $USER   --pass x --cuda_devices 0
+CMD miner --server $POOL --port $PORT --user $USER  --pass $USERPASS --cuda_devices $CUDADEVICES
