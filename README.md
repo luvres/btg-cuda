@@ -26,7 +26,7 @@ nvidia-docker run -ti --rm --name Nicehash \
 -e POOL="equihash.eu.nicehash.com" \
 -e PORT=3357 \
 -e USER="3PThBqHfb1UVcZaZXtPAY4SC4fZNBNqCs7.1uvr3z" \
--e USERPASS="gtx1050" \
+-e USERPASS="x" \
 -e CUDADEVICES="0" \
 izone/ewbf-miner
 ```
